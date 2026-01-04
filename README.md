@@ -1,12 +1,5 @@
 # PSTCentral
 
-Below is a clean, professional README.md you can directly use.
-I’ve written it in simple, clear technical English, suitable for a PowerShell + Windows LAN environment.
-
-You can change the repo name at the top if needed.
-
-⸻
-
 LAN PST Backup System
 
 📌 Overview

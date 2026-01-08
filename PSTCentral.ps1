@@ -283,6 +283,7 @@ Time: $(Get-Date -Format 'HH:mm:ss')
 
 Please close Outlook and this window will 
 automatically disappear once backup is complete.
+For disappear popup
 
 ================================================
 "@
@@ -805,3 +806,4 @@ if ([Environment]::UserInteractive) {
     }
 }
 #endregion
+

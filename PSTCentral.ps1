@@ -5,7 +5,7 @@
 $computerCredFile = "C:\BackupScript\computers_credentials.csv"  # CSV with computer names and credentials
 $backupDestination = "C:\BackupScript\OutlookBackups"  # Local backup location
 $logFile = "C:\BackupScript\backup_log_$(Get-Date -Format 'yyyyMMdd_HHmmss').txt"
-$maxConcurrent = 3  # Number of concurrent backups
+$maxConcurrent = 3  # Number of concurrent backups or custom number
 $closeOutlookForBackup = $true  # Set to $true to request Outlook close, $false to skip locked files
 $waitAfterOutlookClose = 5  # Seconds to wait after closing Outlook
 $restartOutlookAfterBackup = $false  # Set to $true to restart Outlook, $false to let user open it manually
@@ -806,4 +806,5 @@ if ([Environment]::UserInteractive) {
     }
 }
 #endregion
+
 

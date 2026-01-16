@@ -38,27 +38,7 @@ This solution is ideal for:
 	•	Username
 	•	Date/time (optional)
 
-⸻
 
-📂 Project Structure
-
-lan-pst-backup/
-│
-├── scripts/
-│   ├── backup-pst.ps1
-│   ├── connect-remote.ps1
-│   └── config.ps1
-│
-├── logs/
-│   └── backup-log.txt
-│
-├── backups/
-│   └── <computer-name>/<username>/
-│
-└── README.md
-
-
-⸻
 
 🔐 Requirements
 	•	Windows OS (Client & Server)
